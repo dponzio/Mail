@@ -1,0 +1,36 @@
+textarea {
+    min-height: 400px;
+}
+
+.email {
+    background-color: white;    /*If email has been read, set to #edf6ff;*/
+    height: 40px;
+    width: 80%;
+    border: solid 1px lightgrey;
+    margin: 10px;
+    padding: 5px;
+    padding-right: 10px;
+    margin-bottom: 3px;
+    font-size: 15px;
+    border-radius: 6px;
+    line-height: 1.5;
+}
+
+div.email:hover {
+    border-color: #007bff;
+}
+
+.column {
+    float: left;
+    width: 33%;
+}
+
+a:not(.btn) {
+    color: #212529;
+}
+
+.column-end {
+    float: right;
+    width: 170px;
+    color: lightslategray;
+}
